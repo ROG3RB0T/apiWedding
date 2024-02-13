@@ -119,4 +119,3 @@ async def read_item(item_id: int, db: Session = Depends(get_db)):
     except Exception as e:
         # Handle other exceptions if needed
         return JSONResponse(content={"error": str(e)}, status_code=500)
-
