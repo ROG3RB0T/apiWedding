@@ -1,0 +1,17 @@
+# Test your FastAPI endpoints
+
+GET https://127.0.0.1/api/rsvp/1
+Accept: application/json
+
+###
+
+GET https://grotesque-snake-production.up.railway.app/rsvp/1
+Accept: application/json
+
+###
+POST http://127.0.0.1/api/rsvp/checkin/1
+Accept: application/json
+
+###
+POST http://127.0.0.1/api/rsvp/checkout/1
+Accept: application/json
